@@ -17,3 +17,12 @@ console.log(array)
 array.push({id: 1}, null, true, [10, 11, 12])
 console.log(array[11])
 console.log(array)
+
+let array2 = ['Ferrari', 'Lamborghini', 'Ford', 'Porshe', 'Nissan']
+array2.pop()// remove ultimo elemento
+console.log(array2)
+array2.shift()// remove o primeiro elemento
+console.log(array2)
+array2.push('BMW')//adiciona na ultima posição
+array2.unshift('Rolls Royce')//adiciona na primeira posição
+console.log(array2)
